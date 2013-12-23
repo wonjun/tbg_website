@@ -1,0 +1,25 @@
+.top-bar {
+  background: #FFFFFF;}
+  .top-bar .name h1 a {
+    color: black; }
+
+.top-bar-section ul {
+  background: #FFFFFF; }
+.top-bar-section ul li > a {
+    color: #808284; }
+
+.js-generated {
+  display: block; }
+
+@media only screen and (min-width: 40.063em) {
+  .top-bar {
+    background: #FFFFFF; }
+  .top-bar-section li.hover > a:not(.button) {
+    background: #28377C;
+    color: #808284; }
+  .top-bar-section li a:not(.button) {
+    padding: 0 15px;
+    line-height: 45px;
+    background: #FFFFFF; }
+    .top-bar-section li a:not(.button):hover {
+      background: #28377C; }
