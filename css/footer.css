@@ -28,8 +28,13 @@
   font-size: 75%;
   padding: 4px 0px 4px 20px;
 }
+.footer-item2 {
+  list-style-type: none;
+  font-size: 75%;
+  padding: 4px 0px 4px 0px;
+}
 .footer-list {
-  padding-top: 5px;
+  padding-top: 3px;
   margin-left: 0px;
 }
 
