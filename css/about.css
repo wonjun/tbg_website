@@ -2,10 +2,22 @@
   background-color: #ebe7e8;
 }
 .about-title {
+  color: #111946;
   text-align: center;
-  padding: 20px;
+  padding-top: 20px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: fabrica;
+  width: 70%;
+}
+  .about-title h1{
+  color: #111946;
+  font-family: fabrica;
 }
 .about-panel {
+  color: #111946;
   background-color: #ebe7e8;
-  padding-bottom: 20px;
+  padding-bottom: 80px;
+  margin-top: -20px;
 }

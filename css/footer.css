@@ -1,0 +1,38 @@
+.footer {
+  color: #dce3e7;
+  font-family: fabrica;
+  background-color: #00193b;
+  padding-bottom: 60px;
+  padding-top: 30px;
+  font-size: 85%;
+}
+  .footer .title {
+    color: #dce3e7;
+    padding-bottom: 5px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    width: 77px;
+    margin-bottom: 8px;
+  }
+  .footer .title2 {
+    color: #dce3e7;
+    padding-bottom: 5px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    width: 90px;
+    margin-bottom: 8px;
+  }
+
+.footer-item {
+  list-style-type: none;
+  font-size: 75%;
+  padding: 4px 0px 4px 20px;
+}
+.footer-list {
+  padding-top: 5px;
+  margin-left: 0px;
+}
+
+.footer-logo {
+  padding-top: 30px;
+}
