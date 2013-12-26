@@ -1,27 +1,52 @@
-@media only screen and (min-width: 700px) {
+.top-bar {
+    background: white;
+    height: 60px;
+    line-height: 60px;
+    -webkit-box-shadow: 0px 1px 3px #a6a6a6;
+    -moz-box-shadow: 0px 1px 3px #a6a6a6;
+    box-shadow: 0px 1px 3px #a6a6a6; }
+  .top-bar .name {
+    height: 60px;
+    margin-left: 10px;
+  }
+
+.top-bar .toggle-topbar {
+    position: absolute;
+    right: 0;
+    top: 0; }
+    .top-bar .toggle-topbar a {
+      color: white;
+      height: 60px;
+      line-height: 60px; }
+    .top-bar .toggle-topbar.menu-icon a {
+      color: #28377C; }
+      .top-bar .toggle-topbar.menu-icon a span {
+        -webkit-box-shadow: 0 10px 0 1px gray, 0 16px 0 1px gray, 0 22px 0 1px gray;
+        box-shadow: 0 10px 0 1px gray, 0 16px 0 1px gray, 0 22px 0 1px gray; }
+
+.top-bar.expanded .title-area {
+  background: white; }
+.top-bar.expanded .toggle-topbar a {
+  color: white; }
+
+@media only screen and (min-width: 640px) {
   .top-bar {
       background: white;
-      height: 90px;
-      line-height: 90px;
-      margin-bottom: 0;
-      /*-webkit-box-shadow: 0 1px 5px rgba(6,8,8,0.1);
-      -moz-box-shadow: 0 1px 5px rgba(6,8,8,0.1);
-      box-shadow: 0 1px 5px rgba(6,8,8,0.1); }*/
-      -webkit-box-shadow: 0px 1px 3px #a6a6a6;
-      -moz-box-shadow: 0px 1px 3px #a6a6a6;
-      box-shadow: 0px 1px 3px #a6a6a6; }
-    .top-bar .name a {
-      display: inline-block;
-      height: 40px;
-      margin: 25px;
-      margin-left: 30px;
-      position: relative;
-      width: 57px; }
+      height: 60px;
+      line-height: 60px;
+      -webkit-box-shadow: 0px 3px 3px #a6a6a6;
+      -moz-box-shadow: 0px 3px 3px #a6a6a6;
+      box-shadow: 0px 3px 3px #a6a6a6; }
+    .top-bar .name{
+      padding-top: 10px;
+      padding-left: 5px;
+    }
 
   /** Removes black background on menu bar **/
   .top-bar-section ul {
       background: white;
       text-transform: uppercase;
+      padding-right: 0px
   }
   /** Changing section items colors/fonts */
   .top-bar-section ul li > a {
@@ -31,11 +56,73 @@
   /** Removes black background on menu item **/
   .top-bar-section li a:not(.button) {
       background: white;
-      line-height: 90px;
-      padding: 0 27px; }
+      line-height: 60px;
+      padding: 0px 5px;}
     .top-bar-section li a:not(.button):hover {
       text-decoration: underline;
       background: white;
-      color: #808284;
+      color: #28377c;
       font-family: fabrica; }
+
+    .top-bar-section .has-dropdown > a {
+      padding-right: 35px !important; }
+      .top-bar-section .has-dropdown > a:after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border: inset 5px;
+        border-color: rgba(255, 255, 255, 0.4) transparent transparent transparent;
+        border-top-style: solid;
+        margin-top: -2.5px;
+        top: 22.5px; }
+    .top-bar-section .has-dropdown.moved {
+      position: relative; }
+      .top-bar-section .has-dropdown.moved > .dropdown {
+        display: none; }
+    .top-bar-section .has-dropdown.hover > .dropdown, .top-bar-section .has-dropdown.not-click:hover > .dropdown {
+      display: block; }
+    .top-bar-section .has-dropdown .dropdown li.has-dropdown > a:after {
+      border: none;
+      content: "\00bb";
+      top: 1rem;
+      margin-top: -2px;
+      right: 5px; }
+    .top-bar-section .dropdown {
+      left: 0;
+      top: auto;
+      background: transparent;
+      min-width: 100%; }
+      .top-bar-section .dropdown li a {
+        color: white;
+        line-height: 1;
+        white-space: nowrap;
+        padding: 12px 15px;
+        background: #333333; }
+      .top-bar-section .dropdown li label {
+        white-space: nowrap;
+        background: #333333; }
+      .top-bar-section .dropdown li .dropdown {
+        left: 100%;
+        top: 0; }
+  }
+@media only screen and (min-width: 882px) {     
+  .top-bar .name{
+    padding-left: 75px;
+  }
+  .top-bar-section ul {
+    background: white;
+    text-transform: uppercase;
+    padding-right: 70px
+  }
+  .top-bar-section li a:not(.button) {
+    background: white;
+    line-height: 60px;
+    padding: 0px 10px; }
 }
+@media only screen and (min-width: 1058px) {
+  .top-bar-section li a:not(.button) {
+    padding: 0px 27px; }
+}
+
+/* Top-Bar Dropdown */
