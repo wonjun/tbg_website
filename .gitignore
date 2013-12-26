@@ -1,0 +1,5 @@
+# Ignore Dropbox File
+.dropbox
+
+# Ignore .DS_Store
+.DS_Store
