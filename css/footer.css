@@ -6,15 +6,17 @@
   padding-top: 30px;
   font-size: 85%;
 }
-  .footer .title {
+  .footer-title {
     color: #dce3e7;
+    font-size: 90%;
     padding-bottom: 5px;
     border-bottom-width: 2px;
     border-bottom-style: solid;
     width: 77px;
     margin-bottom: 8px;
   }
-  .footer .title2 {
+  .footer-title2 {
+    font-size: 90%;
     color: #dce3e7;
     padding-bottom: 5px;
     border-bottom-width: 2px;
