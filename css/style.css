@@ -1,34 +1,40 @@
-.panel-title {
+.panel-text {
   color: #111946;
-  text-align: center;
-  padding-top: 20px;
-  margin-bottom: 40px;
-  margin-left: auto;
-  margin-right: auto;
   font-family: fabrica;
-  width: 70%;
-}
-  .panel-title h1{
-    color: #111946;
-    font-family: fabrica;
+  font-size: 80%;
+  line-height: 90%
 }
 
-.tbg-panel {
+.panel-row {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #cfd0d1;
+}
+
+h1{
+  font-size: 290%;
+  color: #111946;
+  font-family: fabrica;
+}
+
+.basic-panel {
   color: #111946;
   background-color: #ebe7e8;
-  padding-bottom: 80px;
+  padding-bottom: 25px;
+  padding-top: 25px;
 }
 
 .mission-panel {
   background-color: #28377C;
   padding-top: 60px;
-  padding-bottom: 75px;
+  padding-bottom: 60px;
 }
 
 .mission-statement{
   color: #e6e7e8;
   font-family: fabrica;
-  size: 30;
   text-align: center;
   font-size: 120%;
   line-height: 130%;
