@@ -17,6 +17,9 @@
   padding-bottom: 25px;
   padding-top: 25px;
 }
+  .faq-panel .row.second {
+    padding-top: 20px;
+  }
 
 .faq-title {
   color: #28377C;
@@ -31,6 +34,26 @@
   color: #28377C;
 }
 
-.faq-panel .row.second{
-  padding-top: 20px;
+.testimony-panel {
+  background-color: #28377C;
+  color: #e6e7e8;
+  font-family: fabrica;
+  text-align: center;
+  padding-top: 25px;
 }
+  .testimony-panel hr{
+    margin: auto;
+    padding-bottom: 25px;
+    width: 40%
+  }
+  .testimony-text {
+    margin: auto;
+    font-size: 160%;
+    line-height: 140%;
+    width: 90%
+  }
+  .testimony-by{
+    padding-top: 20px;
+    font-size: 80%;
+    padding-bottom: 25px;
+  }
