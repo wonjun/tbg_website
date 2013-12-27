@@ -1,0 +1,36 @@
+.services-text {
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #cfd0d1;
+  padding-top: 10px;
+  font-family: fabrica;
+  font-size: 75%;
+}
+
+.service {
+  padding-bottom: 40px;
+  color: #111946;
+}
+
+.faq-panel {
+  color: #28377C;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+.faq-title {
+  color: #28377C;
+}
+.faq-text {
+  color: #28377C;
+  font-family: fabrica;
+  font-size: 70%;
+  padding-top: 10px;
+}
+.faq-subtitle {
+  color: #28377C;
+}
+
+.faq-panel .row.second{
+  padding-top: 20px;
+}
