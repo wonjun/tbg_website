@@ -28,8 +28,8 @@
           <section class="top-bar-section">
             <!-- Right Nav Section -->
             <ul class="right">
-              <li class="has-dropdown nav-about"><a href="home.html">about</a></li>
-              <li class="has-dropdown nav-clients"><a href=#>clients</a></li>
+              <li class="nav-about has-dropdown"><a href="index.html">about</a></li>
+              <li class="nav-clients has-dropdown"><a href="#">clients</a></li>
               <li><a href="#">consultants</a></li>
               <li><a href="#">donate</a></li>
               <li><a href="#">contact us</a></li>
@@ -359,8 +359,11 @@
     <script src="js/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script>
+      $(document).foundation();
       $(document).ready(function(){
         $(".project").hide();
+        $(".sub-about").hide();
+        $(".sub-clients").hide();
         $(".client-logo").hover(
           function() {
             $(this).find("img").stop().fadeTo('slow', 1);
@@ -377,19 +380,17 @@
         }, function() {
           $(".header").stop().animate({"margin-top":"0"})
         });
-        $(".has-dropdown").hover( function(){
-            $(".sub-bar").stop().slideToggle();
+        $(".nav-about").hover(
+          function(){
+            $(".sub-about").stop().slideToggle();
+            $(".sub-bar").stop().slideToggle();            
         });
         $(".nav-clients").hover(
           function(){
             $(".sub-clients").stop().slideToggle();
-        });
-        $(".nav-about").hover(
-          function(){
-            $(".sub-about").stop().slideToggle();
+            $(".sub-bar").stop().slideToggle();            
         });
       });
-      $(document).foundation();
     </script>
   </body>
 </html>

@@ -28,8 +28,8 @@
           <section class="top-bar-section">
             <!-- Right Nav Section -->
             <ul class="right">
-              <li class="has-dropdown nav-about"><a href="#">about</a></li>
-              <li class="has-dropdown nav-clients"><a href="clients.html">clients</a></li>
+              <li class="nav-about has-dropdown"><a href="#">about</a></li>
+              <li class="nav-clients has-dropdown"><a href="clients.html">clients</a></li>
               <li><a href="#">consultants</a></li>
               <li><a href="#">donate</a></li>
               <li><a href="#">contact us</a></li>
@@ -243,21 +243,22 @@
     <script>
     $(document).foundation();
     $(document).ready(function(){
+      $(".sub-about").hide();
+      $(".sub-clients").hide();
       $(".has-dropdown").hover( function(){
-          $(".header").stop().animate({"margin-top":"50px"})
-        }, function() {
-          $(".header").stop().animate({"margin-top":"0"})
-      });
-      $(".has-dropdown").hover( function(){
-          $(".sub-bar").stop().slideToggle();
+        $(".header").stop().animate({"margin-top":"50px"})
+      }, function() {
+        $(".header").stop().animate({"margin-top":"0"})
       });
       $(".nav-clients").hover(
         function(){
           $(".sub-clients").stop().slideToggle();
+          $(".sub-bar").stop().slideToggle();
       });
       $(".nav-about").hover(
         function(){
           $(".sub-about").stop().slideToggle();
+          $(".sub-bar").stop().slideToggle();
       });
     });
     </script>

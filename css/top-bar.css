@@ -97,6 +97,7 @@
   box-shadow: 0px 1px 3px #a6a6a6; 
   position: relative;
   display: none;
+  z-index: 5;
 }
 
 .sub-clients{
@@ -108,11 +109,10 @@
   position: absolute;  
   text-align: center;
   height: 100%;
-  display: none;
 }
 
 .sub-about{
-  z-index: 1;
+  z-index: 10;
   top: 0px;
   left: 0;
   right: 0;
@@ -120,7 +120,6 @@
   position: absolute;  
   text-align: center;
   height: 100%;
-  display: none;
 }
 .inline-list{
   display: inline-block;
