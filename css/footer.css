@@ -6,6 +6,9 @@
   padding-top: 60px;
   font-size: 85%;
 }
+  .footer a{
+    color: #dce3e7;
+  }
   .footer-title {
     color: #dce3e7;
     font-size: 90%;
@@ -28,14 +31,17 @@
 .footer-item {
   list-style-type: none;
   font-size: 75%;
-  padding: 4px 0px 4px 20px;
-}
-.footer-item2 {
-  list-style-type: none;
-  font-size: 75%;
   padding: 4px 0px 4px 0px;
 }
+
 .footer-list {
   padding-top: 3px;
-  margin-left: 0px;
+  margin-left: 0px; 
 }
+
+.footer-list2 {
+  padding-top: 3px;
+  margin-left: -15px;
+  line-height: 130%; 
+}
+

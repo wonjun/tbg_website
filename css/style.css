@@ -12,6 +12,16 @@
     font-style: italic;
     color: #28377C;
   }
+.panel-img img{
+  margin: 0 auto;
+  display: block;
+  padding-bottom: 20px;
+}
+
+.row.panel-row{
+  padding-top: 23px;
+  padding-bottom: 10px;
+}
 
 h2{
   text-align: center;
@@ -65,6 +75,7 @@ h3{
 }
   .testimony-panel2 hr {
     border-color: #939393;
+    padding-top: 25px;
   }
 
   .testimony-text {
@@ -80,8 +91,19 @@ h3{
 
 a.anchor-link {
   position: relative;
-  top: -60px;
+  top: -75px;
   display: block;
   height: 0;
   width:0;
+}
+
+.quote-left {
+  margin-top: -20px;
+}
+.quote-right{
+  margin-top: 10px;
+}
+
+.quote-right img, .quote-left img{
+  min-width: 50px;
 }
