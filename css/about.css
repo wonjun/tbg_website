@@ -1,37 +1,40 @@
 .orbit-container {
-  background-color: #ebe7e8;
-  margin-bottom: -17px
+  background-color: white;
+  margin-bottom: -15px;
+}
+.orbit-bullets{
+  z-index: 40;
+  top: -30px;
 }
 
 .mission-statement{
-  color: #111946;
+  color: #28377c;
   font-family: fabrica;
   text-align: center;
-  font-size: 120%;
+  font-size: 150%;
   line-height: 130%;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
 }
 
 .exec-panel {
-  background-color: #28377c;
+  background-color: white;
   color: #e6e7e8;
   padding-bottom: 20px;
 }
 
 .exec-member {
-  color: #e6e7e8;
+  color: $28377C;
   padding-bottom: 30px;
 }
 .exec-title {
-  color: #e6e7e8;
-  padding-top: 30px;
-  padding-bottom: 10px;
+  color: #27377C;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 h5 {
-  color: #e6e7e8;
+  color: #28377C;
   font-family: fabrica;
   font-size: 140%;
   font-weight: 100;
@@ -39,7 +42,7 @@ h5 {
   line-height: 80%;
 }
 .exec-description {
-  color: #bec1c3;
+  color: #58585b;
   font-family: fabrica;
   font-size: 70%;
   line-height: 135%;
