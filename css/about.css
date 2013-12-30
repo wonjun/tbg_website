@@ -1,6 +1,6 @@
 .orbit-container {
   background-color: white;
-  margin-bottom: -15px;
+  margin-bottom: -30px;
 }
 .orbit-bullets{
   z-index: 40;
@@ -9,7 +9,8 @@
 
 .mission-statement{
   color: #28377c;
-  font-family: fabrica;
+  font-family: georgia;
+  font-style: italic;
   text-align: center;
   font-size: 150%;
   line-height: 130%;
@@ -24,7 +25,7 @@
 }
 
 .exec-member {
-  color: $28377C;
+  color: #28377C;
   padding-bottom: 30px;
 }
 .exec-title {
@@ -35,7 +36,8 @@
 
 h5 {
   color: #28377C;
-  font-family: fabrica;
+  font-family: georgia;
+  font-style: italic;
   font-size: 140%;
   font-weight: 100;
   margin-bottom: 5px;
@@ -43,7 +45,7 @@ h5 {
 }
 .exec-description {
   color: #58585b;
-  font-family: fabrica;
-  font-size: 70%;
+  font-family: arial;
+  font-size: 75%;
   line-height: 135%;
 }

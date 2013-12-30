@@ -16,44 +16,61 @@
   <body>
 
     <!-- Top Bar-->
-    <div class="fixed">
-      <nav class="top-bar" data-topbar>
-        <ul class="title-area">
-          <li class="name">
-            <a href="#"><img src="img/logo-blue.png"/></a>
-          </li>
-          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-        </ul>
-
-        <section class="top-bar-section">
-          <!-- Right Nav Section -->
-          <ul class="right">
-            <li class="has-dropdown">
-              <a href="#">ABOUT</a>
-              <ul class="dropdown">
-                <li><a href="#">mission</a></li>
-              </ul>
+    <div class="header">
+      <div class="fixed">
+        <nav class="top-bar" data-topbar>
+          <ul class="title-area">
+            <li class="name">
+              <a href="#"><img src="img/logo-blue.png"/></a>
             </li>
-            <li><a href="clients.html">CLIENTS</a></li>
-            <li><a href="#">CONSULTANTS</a></li>
-            <li><a href="#">DONATE</a></li>
-            <li><a href="#">CONTACT US</a></li>
+            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
           </ul>
-        </section>
-      </nav>
+
+          <section class="top-bar-section">
+            <!-- Right Nav Section -->
+            <ul class="right">
+              <li class="has-dropdown nav-about"><a href="#">about</a></li>
+              <li class="has-dropdown nav-clients"><a href="clients.html">clients</a></li>
+              <li><a href="#">consultants</a></li>
+              <li><a href="#">donate</a></li>
+              <li><a href="#">contact us</a></li>
+            </ul>
+          </section>
+        </nav>
+        <div class="has-dropdown sub-bar">
+          <div class="nav-about sub-about">
+            <ul class="inline-list">
+              <li class="sub"><a href="#">Link 1</a></li>
+              <li class="sub"><a href="#">Link 2</a></li>
+              <li class="sub"><a href="#">Link 3</a></li>
+              <li class="sub"><a href="#">Link 4</a></li>
+              <li class="sub sub-last"><a href="#">Link 5</a></li>
+            </ul>
+          </div>
+          <div class="nav-clients sub-clients">
+            <ul class="inline-list">
+              <li class="sub"><a href="#">our services</a></li>
+              <li class="sub"><a href="#">FAQ</a></li>
+              <li class="sub"><a href="#">social impact</a></li>
+              <li class="sub"><a href="#">application process & timeline</a></li>
+              <li class="sub sub-last"><a href="#">client application</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Picture Slider-->
     <ul data-orbit>
       <li>
         <!--Optimal Image sizes are 1440x625 -->
-        <img src="http://placehold.it/1440x625/28377C/fff" alt="slide 1" />
+        <img src="http://placehold.it/1440x550/28377C/fff" alt="slide 1" />
       </li>
       <li class="active">
-        <img src="http://placehold.it/1440x625/EE964D/fff" alt="slide 2" />
+        <img src="http://placehold.it/1440x550/EE964D/fff" alt="slide 2" />
       </li>
       <li>
-        <img src="http://placehold.it/1440x625/FDC43D/fff" alt="slide 3" />
+        <img src="http://placehold.it/1440x550/FDC43D/fff" alt="slide 3" />
       </li>
     </ul>
     
@@ -63,8 +80,8 @@
         <div class="small-12 columns">          
           <div class="mission-statement">
             The Berkeley Group is a student organization at UC Berkeley that provides pro bono consulting services for non-profits and social enterprises in the Bay Area.
-            <hr>
           </div>
+          <hr>
         </div>
       </div>
       <div class="row">     
@@ -225,7 +242,25 @@
     <script src="js/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script>
-      $(document).foundation();
+    $(document).foundation();
+    $(document).ready(function(){
+      $(".has-dropdown").hover( function(){
+          $(".header").stop().animate({"margin-top":"50px"})
+        }, function() {
+          $(".header").stop().animate({"margin-top":"0"})
+      });
+      $(".has-dropdown").hover( function(){
+          $(".sub-bar").stop().slideToggle();
+      });
+      $(".nav-clients").hover(
+        function(){
+          $(".sub-clients").stop().slideToggle();
+      });
+      $(".nav-about").hover(
+        function(){
+          $(".sub-about").stop().slideToggle();
+      });
+    });
     </script>
   </body>
 </html>

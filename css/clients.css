@@ -101,3 +101,13 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.testimony-panel2 {
+  background-color: white;
+  color: #28377C;
+  font-family: Georgia;
+  font-style: italic;
+  text-align: center;
+  padding-top: 35px;
+  margin-top: 15px;
+}

@@ -1,15 +1,15 @@
 .panel-text {
   color: #58585B;
   text-align: center;
-  font-family: fabrica;
+  font-family: arial;
   font-size: 80%;
   line-height: 125%;
   margin-right: 27px; 
   margin-left: 27px;
 }
   .panel-text h4{
-    font-size: 140%;
-    font-family: fabrica;
+    font-family: georgia;
+    font-style: italic;
     color: #28377C;
   }
 
@@ -33,8 +33,8 @@ h3{
   padding-top: 25px;
   padding-bottom: 15px;
 }
-.basic-panel hr {
-  border-color: #cfd0d1;
+.basic-panel hr {`
+  border-color: #939393;
 }
 
 
@@ -57,15 +57,19 @@ h3{
 .testimony-panel {
   background-color: #28377C;
   color: #e6e7e8;
-  font-family: fabrica;
+  font-family: Georgia;
+  font-style: italic;
   text-align: center;
   padding-top: 35px;
   margin-top: 15px;
 }
+  .testimony-panel2 hr {
+    border-color: #939393;
+  }
 
   .testimony-text {
     margin: auto;
-    font-size: 160%;
+    font-size: 150%;
     line-height: 140%;
   }
   .testimony-by{
