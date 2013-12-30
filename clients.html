@@ -28,7 +28,7 @@
           <section class="top-bar-section">
             <!-- Right Nav Section -->
             <ul class="right">
-              <li class="nav-about has-dropdown"><a href="index.html">about</a></li>
+              <li class="nav-about has-dropdown"><a href="home.html">about</a></li>
               <li class="nav-clients has-dropdown"><a href="#">clients</a></li>
               <li><a href="#">consultants</a></li>
               <li><a href="#">donate</a></li>
@@ -382,12 +382,12 @@
         });
         $(".nav-about").hover(
           function(){
-            $(".sub-about").stop().slideToggle();
+            $(".sub-about").stop().fadeToggle();
             $(".sub-bar").stop().slideToggle();            
         });
         $(".nav-clients").hover(
           function(){
-            $(".sub-clients").stop().slideToggle();
+            $(".sub-clients").stop().fadeToggle();
             $(".sub-bar").stop().slideToggle();            
         });
       });
