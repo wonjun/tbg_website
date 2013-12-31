@@ -3,9 +3,9 @@ $(document).ready(function() {
   $(".sub-about").hide();
   $(".sub-clients").hide();
   $(".has-dropdown").hover( function(){
-    $(".header").stop().animate({"margin-top":"50px"})
+    $(".header").stop().animate({"margin-top":"50px"});
   }, function() {
-    $(".header").stop().animate({"margin-top":"0"})
+    $(".header").stop().animate({"margin-top":"0"});
   });
   $(".nav-clients").hover(
     function(){

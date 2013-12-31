@@ -8,10 +8,13 @@
   line-height: 125%;
   margin-right: 20px;
 }
-
 .service {
   padding-bottom: 25px;
   color: #58585B;
+}
+
+.client-logo{
+  padding-bottom: 25px;
 }
 
 .faq-panel {
@@ -109,5 +112,64 @@
   font-style: italic;
   text-align: center;
   padding-top: 35px;
-  margin-top: 15px;
+  border-bottom-color: #cfd0d1; 
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-top-color: #cfd0d1; 
+  border-top-width: 1px;
+  border-top-style: solid;
+  margin: 0 auto;
+}
+
+.timeline {
+  background: #f5f5f6;
+  position: relative;
+}
+.timeline-row{
+  padding-top: 83px;
+}
+
+.timeline-row1{
+  padding-top: 71px;
+}
+.timeline-image img{
+  max-width: 50px;
+  margin: auto;
+  display: table;
+  position: absolute;
+  z-index: 4;
+  top: 0;
+  left: 0;
+}
+
+.timeline-sub {
+  text-align: center;
+  color: #58585B;
+  font-family: georgia;
+  font-style: italic;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  line-height: 140%;
+}
+
+.time-text {
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #cfd0d1;
+  padding-top: 5px;
+  font-family: arial;
+  font-size: 75%;
+  line-height: 125%;
+  margin-right: 20px;
+}
+.time-title {
+  color: #58585B;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.vcenterer {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
 }
