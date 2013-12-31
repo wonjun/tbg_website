@@ -430,7 +430,7 @@
                 <img draggable="false" src="img/timeline.png"/>
             </div>
           </div>
-          <div class="row timeline-row1">
+          <div class="row timeline-row1 time-element">
             <div class="medium-5 columns">
               <div class="vcenterer"></div>
               <div class="time-title">
@@ -445,7 +445,7 @@
               <img src="http://placehold.it/280x150/28377C/fff"/>
             </div>
           </div>
-          <div class="row timeline-row">
+          <div class="row timeline-row time-element">
             <div class="medium-5 columns">
               <img src="http://placehold.it/280x150/28377C/fff"/>
             </div>
@@ -459,7 +459,7 @@
               </div>
             </div>
           </div>
-          <div class="row timeline-row">
+          <div class="row timeline-row time-element">
             <div class="medium-5 columns">
               <div class="vcenterer"></div>
               <div class="time-title">
@@ -474,7 +474,7 @@
               <img src="http://placehold.it/280x150/28377C/fff"/>
             </div>
           </div>
-          <div class="row timeline-row">
+          <div class="row timeline-row time-element">
             <div class="medium-5 medium-centered columns">
               <div class="time-title">
                 <h3>selection & engagement</h3>
@@ -543,6 +543,7 @@
 
     
     <script src="js/jquery.js"></script>
+    <script src="js/waypoints.min.js"></script>
     <script src="js/foundation.min.js"></script>
     <script>
       $(document).foundation();
@@ -559,6 +560,10 @@
           function(){
             $(this).find(".project").stop().slideToggle();
         });
+        $(".time-element").hide();
+        $(".time-element").waypoint(function(event, direction) {
+          $(this).stop().fadeToggle("slow");
+        }, {offset:'68%'});
       });
     </script>
     <script src="js/app.js"></script>

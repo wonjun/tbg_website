@@ -13,10 +13,6 @@
   color: #58585B;
 }
 
-.client-logo{
-  padding-bottom: 25px;
-}
-
 .faq-panel {
   color: #28377C;
   padding-bottom: 25px;
@@ -55,6 +51,7 @@
   width: 100%;
   position: relative;
   display: table;
+  padding-bottom: 25px;
 }
 
 .client-logo img{
@@ -70,7 +67,7 @@
   display: table-row;
   width: 100%;
   max-width: 280px;
-  bottom: 0px;
+  bottom: 25px;
   font-family: georgia;
   font-style: italic;
   text-align: center;
@@ -124,6 +121,7 @@
 .timeline {
   background: #f5f5f6;
   position: relative;
+  height: 1100px;
 }
 .timeline-row{
   padding-top: 83px;
@@ -140,6 +138,8 @@
   z-index: 4;
   top: 0;
   left: 0;
+  float: left;
+  float: right;
 }
 
 .timeline-sub {
