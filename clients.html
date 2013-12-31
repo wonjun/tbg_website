@@ -390,8 +390,6 @@
       $(document).foundation();
       $(document).ready(function(){
         $(".project").hide();
-        $(".sub-about").hide();
-        $(".sub-clients").hide();
         $(".client-logo").hover(
           function() {
             $(this).find("img").stop().fadeTo('slow', 1);
@@ -402,21 +400,6 @@
         $(".client-logo").hover(
           function(){
             $(this).find(".project").stop().slideToggle();
-        });
-        $(".has-dropdown").hover( function(){
-          $(".header").stop().animate({"margin-top":"50px"})
-        }, function() {
-          $(".header").stop().animate({"margin-top":"0"})
-        });
-        $(".nav-about").hover(
-          function(){
-            $(".sub-about").stop().fadeToggle();
-            $(".sub-bar").stop().slideToggle();            
-        });
-        $(".nav-clients").hover(
-          function(){
-            $(".sub-clients").stop().fadeToggle();
-            $(".sub-bar").stop().slideToggle();            
         });
       });
     </script>
