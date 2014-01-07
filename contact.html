@@ -1,0 +1,170 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Berkeley Group</title>
+    <link rel="stylesheet" href="css/fabrica-font.css" />
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/top-bar.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/clients.css" />
+    <script src="js/modernizr.js"></script>
+  </head>
+
+  <body>
+    <!-- Top Bar-->
+    <div class="header">
+      <div class="fixed">
+        <nav class="top-bar" data-topbar>
+          <ul class="title-area">
+            <li class="name">
+              <a href="#"><img src="img/logo-blue.png"/></a>
+            </li>
+            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+          </ul>
+
+          <section class="top-bar-section">
+            <!-- Right Nav Section -->
+            <ul class="right">
+              <li class="nav-about has-dropdown"><a href="home.html">about</a></li>
+              <li class="nav-clients has-dropdown"><a href="clients.html">clients</a></li>
+              <li><a href="#">consultants</a></li>
+              <li><a href="#">donate</a></li>
+              <li><a href="#">contact us</a></li>
+            </ul>
+          </section>
+        </nav>
+        <div class="has-dropdown sub-bar">
+          <div class="nav-about sub-about">
+            <ul class="inline-list">
+              <li class="sub"><a href="home.html#about_section">about us</a></li>
+              <li class="sub sub-last"><a href="home.html#executives">executive committee</a></li>
+            </ul>
+          </div>
+          <div class="nav-clients sub-clients">
+            <ul class="inline-list">
+              <li class="sub"><a href="#our_services" class="smooth_scroll" >our services</a></li>
+              <li class="sub"><a href="#faq" class="smooth_scroll">FAQ</a></li>
+              <li class="sub"><a href="#social_impact" class="smooth_scroll">social impact</a></li>
+              <li class="sub"><a href="#client_timeline" class="smooth_scroll">application process & timeline</a></li>
+              <li class="sub sub-last"><a href="#" class="smooth_scroll">client application</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Beginning of Our Services Section-->
+    <div class="basic-panel">
+      <div class="row">
+        <div class="large-12 columns">
+          <a name="our_services" class="anchor-link"></a> 
+          <h2> 
+            contact us
+          </h2>
+          <div class="contact-description">
+            Drop us an email at info@theberkeleygroup.org, or fill out the form below. 
+            <br>
+            We will get back to you within three working days.
+            <br><br>
+            To apply for consulting services or apply to join TBG, please utilize the available applications. 
+            <br>
+            You can visit our Facebook page for the most up-to-date information 
+            <br>
+            regarding upcoming events and deadlines.
+            <br><br><br>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grey-basic-panel">
+      <h2> 
+        send us a message
+      </h2>
+      <!-- form shit goes here -->
+    </div>
+
+    
+
+    <!-- Beginning of Footer-->
+    <div class="footer">
+      <div class="row">
+        <div class="medium-3 columns">
+          <div class="footer-title">
+            CONTACT US
+          </div>
+          <div class="row">
+            <div class="small-1 columns">
+              <ul class="footer-list">
+                <li class="footer-item"> 
+                  <img src="img/mail.png"/></li>
+                <li class="footer-item"> 
+                  <img src="img/facebook.png"/></li>
+                <li class="footer-item"> 
+                  <img src="img/twitter.png"/></li>
+                <li class="footer-item"> 
+                  <img src="img/linkedin.png"/></li>
+              </ul>
+            </div>
+            <div class="small-10 columns">
+              <ul class="footer-list2">
+                <li class="footer-item"> 
+                  <a href="mailto:info@theberkeleygroup.org">info@theberkeleygroup.org</a></li>
+                <li class="footer-item"> 
+                  <a href="facebook.com/theberkeleygroup">Facebook</a></li>
+                <li class="footer-item"> 
+                  <a href="twitter.com/theberkeleygrp">Twitter</a></li>
+                <li class="footer-item"> 
+                  <a href="linkedin.com/company/the-berkeley-group">LinkedIn</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="medium-3 medium-offset-1 columns">
+          <div class="footer-title2">
+            WORK WITH US
+          </div>
+          <ul class="footer-list">
+            <li class="footer-item"><a href="clients.html">Clients</a></li>
+            <li class="footer-item"><a href="consultants.html"> Consultants</a></li>
+            <li class="footer-item"><a href="partners.html"> Partners</a></li>
+          </ul>
+        </div>
+        <div class="medium-2 large-offset-3 columns">
+          <div class="footer-logo center">
+            <img src="img/footer-logo.png"/>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+      $(document).ready(function(){
+        $(".project").hide();
+        $(".client-logo").hover(
+          function() {
+            $(this).find("img").stop().fadeTo('slow', 1);
+          },
+          function(){
+            $(this).find("img").stop().fadeTo('slow', .5);
+        });
+        $(".client-logo").hover(
+          function(){
+            $(this).find(".project").stop().slideToggle();
+        });
+        $(".time-element").hide();
+        $(".time-element").waypoint(function(event, direction) {
+          $(this).stop().fadeToggle("slow");
+        }, {offset:'68%'});
+      });
+    </script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

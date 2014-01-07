@@ -103,3 +103,16 @@ a.anchor-link {
 .quote-right img, .quote-left img{
   min-width: 50px;
 }
+
+.contact-description {
+  color: #58585b;
+  font-family: Georgia;
+  font-style: italic;
+  text-align: center;
+}
+
+.grey-basic-panel {
+  background-color: #f1f1f2;
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
