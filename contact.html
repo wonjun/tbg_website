@@ -45,18 +45,18 @@
           </div>
           <div class="nav-clients sub-clients">
             <ul class="inline-list">
-              <li class="sub"><a href="#our_services" class="smooth_scroll" >our services</a></li>
-              <li class="sub"><a href="#faq" class="smooth_scroll">FAQ</a></li>
-              <li class="sub"><a href="#social_impact" class="smooth_scroll">social impact</a></li>
-              <li class="sub"><a href="#client_timeline" class="smooth_scroll">application process & timeline</a></li>
-              <li class="sub sub-last"><a href="#" class="smooth_scroll">client application</a></li>
+              <li class="sub"><a href="clients.html#our_services">our services</a></li>
+              <li class="sub"><a href="clients.html#faq">FAQ</a></li>
+              <li class="sub"><a href="clients.html#social_impact">social impact</a></li>
+              <li class="sub"><a href="clients.html#client_timeline">application process & timeline</a></li>
+              <li class="sub sub-last"><a href="clients.html#client_application">client application</a></li>
             </ul>
           </div>
         </div>
       </div>
     </div>
     
-    <!-- Beginning of Our Services Section-->
+    <!-- Beginning of Contact Us Section-->
     <div class="basic-panel">
       <div class="row">
         <div class="large-12 columns">
@@ -64,14 +64,15 @@
           <h2> 
             contact us
           </h2>
+          <br>
           <div class="contact-description">
-            Drop us an email at info@theberkeleygroup.org, or fill out the form below. 
+            Drop us an email at <a href="mailto:info@theberkeleygroup.org" class="contact-blue-text">info@theberkeleygroup.org</a>, or fill out the form below. 
             <br>
             We will get back to you within three working days.
             <br><br>
-            To apply for consulting services or apply to join TBG, please utilize the available applications. 
+            To <a href="clients.html#client_application" class="contact-blue-text">apply for consulting services</a> or <a href="#" class="contact-blue-text">apply to join TBG</a>, please utilize the available applications. 
             <br>
-            You can visit our Facebook page for the most up-to-date information 
+            You can visit our <a href="http://www.facebook.com/TheBerkeleyGroup" class="contact-blue-text">Facebook page</a> for the most up-to-date information 
             <br>
             regarding upcoming events and deadlines.
             <br><br><br>
@@ -79,67 +80,48 @@
         </div>
       </div>
     </div>
+    <!-- End of Contact Us Section-->
 
+    <!-- Beginning of Send Us Message Section-->
     <div class="grey-basic-panel">
       <h2> 
         send us a message
       </h2>
-      <!-- form shit goes here -->
-    </div>
+      <br><br>
 
-    
-
-    <!-- Beginning of Footer-->
-    <div class="footer">
-      <div class="row">
-        <div class="medium-3 columns">
-          <div class="footer-title">
-            CONTACT US
+      <!-- FORM STUFF -->
+      <form method="POST">
+        <div class="medium-3 columns contact-form-left">
+          <div class="contact-blue-text">
+            your name
           </div>
-          <div class="row">
-            <div class="small-1 columns">
-              <ul class="footer-list">
-                <li class="footer-item"> 
-                  <img src="img/mail.png"/></li>
-                <li class="footer-item"> 
-                  <img src="img/facebook.png"/></li>
-                <li class="footer-item"> 
-                  <img src="img/twitter.png"/></li>
-                <li class="footer-item"> 
-                  <img src="img/linkedin.png"/></li>
-              </ul>
+          <br>
+          <input type="text" name="name" size="50"> 
+          <br><br><br>
+          <div class="contact-blue-text">
+              your email address
+          </div>
+          <br>
+          <input type="text" name="name" size="50">
+          <br><br><br>
+           <div class="contact-blue-text">
+              your organization (if applicable)
             </div>
-            <div class="small-10 columns">
-              <ul class="footer-list2">
-                <li class="footer-item"> 
-                  <a href="mailto:info@theberkeleygroup.org">info@theberkeleygroup.org</a></li>
-                <li class="footer-item"> 
-                  <a href="facebook.com/theberkeleygroup">Facebook</a></li>
-                <li class="footer-item"> 
-                  <a href="twitter.com/theberkeleygrp">Twitter</a></li>
-                <li class="footer-item"> 
-                  <a href="linkedin.com/company/the-berkeley-group">LinkedIn</a></li>
-              </ul>
+            <br>
+           <input type="text" name="name" size="50">
+          <br><br><br>
+          <input class="contact-blue-button" type="submit" value="submit">      
+        </div>
+        <div class="contact-form-right">
+          <div class="contact-blue-text">
+              your message
             </div>
-          </div>
+            <br>
+           <textarea id="feedback" name="feedback"></textarea>
         </div>
-        <div class="medium-3 medium-offset-1 columns">
-          <div class="footer-title2">
-            WORK WITH US
-          </div>
-          <ul class="footer-list">
-            <li class="footer-item"><a href="clients.html">Clients</a></li>
-            <li class="footer-item"><a href="consultants.html"> Consultants</a></li>
-            <li class="footer-item"><a href="partners.html"> Partners</a></li>
-          </ul>
-        </div>
-        <div class="medium-2 large-offset-3 columns">
-          <div class="footer-logo center">
-            <img src="img/footer-logo.png"/>
-          </div>
-        </div>
-      </div>
+      </form>
     </div>
+    <!-- End of Send Us Message Section-->
 
     <script src="js/jquery.js"></script>
     <script src="js/waypoints.min.js"></script>

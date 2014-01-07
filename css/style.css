@@ -116,3 +116,35 @@ a.anchor-link {
   padding-top: 25px;
   padding-bottom: 15px;
 }
+
+.contact-blue-text {
+  color: #28377c;
+  font-family: Georgia;
+  font-style: italic;
+}
+
+.contact-blue-button {
+  background-color: #28377c;
+  color: #ffffff;
+  font-family: Georgia;
+  width: 100px;
+  height: 20px;
+  border: 5px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+.contact-form-left {
+  margin-left: 475px;
+}
+
+.contact-form-right {
+  margin-left: 650;
+  margin-bottom: 50px;
+}
+
+textarea#feedback {
+width:550px;
+height:400px;
+}
+
