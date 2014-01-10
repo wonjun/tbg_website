@@ -19,6 +19,7 @@
   padding-top: 10px;
   -webkit-filter: grayscale(1);
   -webkit-transition: .3s all ease-in;
+  -webkit-backface-visibility: hidden;
 }
 
 .donor-panel {

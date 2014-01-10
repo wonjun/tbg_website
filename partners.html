@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="css/partners.css" />
     <script src="js/modernizr.js"></script>
   </head>
-
   <body>
     <!-- Top Bar-->
     <div class="header">
@@ -227,9 +226,7 @@
               </div>
               <div class="panel-text">
                 <h4>mail your donation</h4>
-                Please make checks payable to <br />
-                "The Berkeley Group / ASUC" <br />
-                and address envelopes to: <br /><br />
+                Please make checks payable to <br /> "The Berkeley Group / ASUC" <br /> and address envelopes to: <br /><br />
                 The Berkeley Group c/o ASUC<br />
                 Office of Student Affairs <br />
                 University of California<br />
@@ -306,31 +303,11 @@
         </div>
       </div>
     </div>
-
-    
     <script src="js/jquery.js"></script>
     <script src="js/waypoints.min.js"></script>
     <script src="js/foundation.min.js"></script>
     <script>
       $(document).foundation();
-      $(document).ready(function(){
-        $(".project").hide();
-        $(".client-logo").hover(
-          function() {
-            $(this).find("img").stop().fadeTo('slow', 1);
-          },
-          function(){
-            $(this).find("img").stop().fadeTo('slow', .5);
-        });
-        $(".client-logo").hover(
-          function(){
-            $(this).find(".project").stop().slideToggle();
-        });
-        $(".time-element").hide();
-        $(".time-element").waypoint(function(event, direction) {
-          $(this).stop().fadeToggle("slow");
-        }, {offset:'68%'});
-      });
     </script>
     <script src="js/app.js"></script>
   </body>
