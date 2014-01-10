@@ -2,6 +2,7 @@ $(document).ready(function() {
 	//Cool Nav Bar function
   $(".sub-about").hide();
   $(".sub-clients").hide();
+  $(".sub-partners").hide();
   $(".has-dropdown").hover( function(){
     $(".header").stop().animate({"margin-top":"50px"});
   }, function() {
@@ -15,6 +16,11 @@ $(document).ready(function() {
   $(".nav-about").hover(
     function(){
       $(".sub-about").stop().fadeToggle();
+      $(".sub-bar").stop().slideToggle();
+  });
+  $(".nav-partners").hover(
+    function(){
+      $(".sub-partners").stop().fadeToggle();
       $(".sub-bar").stop().slideToggle();
   });
 
