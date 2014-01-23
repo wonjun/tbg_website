@@ -3,6 +3,7 @@ $(document).ready(function() {
   $(".sub-about").hide();
   $(".sub-clients").hide();
   $(".sub-partners").hide();
+  $(".sub-consultants").hide();
   $(".has-dropdown").hover( function(){
     $(".header").stop().animate({"margin-top":"50px"});
   }, function() {
@@ -21,6 +22,11 @@ $(document).ready(function() {
   $(".nav-partners").hover(
     function(){
       $(".sub-partners").stop().fadeToggle();
+      $(".sub-bar").stop().slideToggle();
+  });
+  $(".nav-consultants").hover(
+    function(){
+      $(".sub-consultants").stop().fadeToggle();
       $(".sub-bar").stop().slideToggle();
   });
 
