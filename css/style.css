@@ -103,3 +103,26 @@ a.anchor-link {
 .quote-right img, .quote-left img{
   min-width: 50px;
 }
+
+.faq-panel {
+  color: #28377C;
+  padding-bottom: 25px;
+}
+  .faq-panel .row.second {
+    padding-top: 20px;
+  }
+
+.faq-title {
+  color: #28377C;
+}
+.faq-text {
+  color: #58585B;
+  font-family: arial;
+  font-size: 75%;
+  line-height: 140%;
+  padding-top: 7px;
+}
+.faq-subtitle {
+  color: #28377C;
+}
+

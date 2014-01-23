@@ -13,28 +13,6 @@
   color: #58585B;
 }
 
-.faq-panel {
-  color: #28377C;
-  padding-bottom: 25px;
-}
-  .faq-panel .row.second {
-    padding-top: 20px;
-  }
-
-.faq-title {
-  color: #28377C;
-}
-.faq-text {
-  color: #58585B;
-  font-family: arial;
-  font-size: 75%;
-  line-height: 140%;
-  padding-top: 7px;
-}
-.faq-subtitle {
-  color: #28377C;
-}
-
 .clients-text {
   color: #58585B;
   text-align: center;
