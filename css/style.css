@@ -135,7 +135,8 @@ a.anchor-link {
 }
 
 .contact-form-left {
-  margin-left: 475px;
+  float: left;
+  width: 45%;
 }
 
 .contact-form-right {
@@ -144,8 +145,9 @@ a.anchor-link {
 }
 
 textarea#feedback {
-width:550px;
+width:51%;
 height:400px;
+}
 
 .faq-panel {
   color: #28377C;

@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="css/top-bar.css" />
     <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/clients.css" />
     <script src="js/modernizr.js"></script>
   </head>
 
@@ -124,28 +123,9 @@
     <!-- End of Send Us Message Section-->
 
     <script src="js/jquery.js"></script>
-    <script src="js/waypoints.min.js"></script>
     <script src="js/foundation.min.js"></script>
     <script>
       $(document).foundation();
-      $(document).ready(function(){
-        $(".project").hide();
-        $(".client-logo").hover(
-          function() {
-            $(this).find("img").stop().fadeTo('slow', 1);
-          },
-          function(){
-            $(this).find("img").stop().fadeTo('slow', .5);
-        });
-        $(".client-logo").hover(
-          function(){
-            $(this).find(".project").stop().slideToggle();
-        });
-        $(".time-element").hide();
-        $(".time-element").waypoint(function(event, direction) {
-          $(this).stop().fadeToggle("slow");
-        }, {offset:'68%'});
-      });
     </script>
     <script src="js/app.js"></script>
   </body>
