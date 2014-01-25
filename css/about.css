@@ -7,12 +7,11 @@
   top: -30px;
 }
 
-.mission-statement{
-  color: #28377c;
+.mission-statement{\
   font-family: georgia;
   font-style: italic;
   text-align: center;
-  font-size: 150%;
+  font-size: 120%;
   line-height: 130%;
   margin-left: auto;
   margin-right: auto;
