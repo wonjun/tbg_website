@@ -97,7 +97,7 @@ echo "Error: no data sent!";
       </div>
     </div>
 
-    <div class="basic-panel">
+    <div class="basic-panel-mailer">
       <div class="app-landing row">
         <div class="large-12 columns">
           <a name="our_services" class="anchor-link"></a> 

@@ -46,6 +46,10 @@ h3{
 .basic-panel hr {
   border-color: #939393;
 }
+.basic-panel-mailer {
+  background-color: white;
+  height: 400px;
+}
 
 
 .mission-panel {
