@@ -221,6 +221,11 @@ height:300px;
   line-height: 125%;
   margin-right: 20px;
 }
+
+  .time-text a{
+    color: #28377C;
+    font-weight: bold;
+  }
 .time-title {
   color: #58585B;
   vertical-align: middle;
