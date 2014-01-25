@@ -1,3 +1,25 @@
+<?php
+if(isset($_POST['submit'])) {
+
+$to = "theberkeleygroup@gmail.com";
+$subject = "Message sent through website";
+$name_field = $_POST['name'];
+$email_field = $_POST['email'];
+$org_field = $_POST['org'];
+$message = $_POST['message'];
+ 
+$body = "From: $name_field\n E-Mail: $email_field\n Organization: $orgfield_field\n Message:\n $message";
+
+mail($to, $subject, $body);
+
+} else {
+
+echo "Error: no data sent!";
+
+}
+?>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <!doctype html>
 <html class="no-js" lang="en">
   <head>
@@ -74,170 +96,14 @@
         </div>
       </div>
     </div>
-    <!-- Picture Slider-->
-    <ul data-orbit>
-      <li>
-        <!--Optimal Image sizes are 1440x625 -->
-        <div class="orbit-image">
-          <img src="img/slider1.png" alt="slide 1" />
-        </div>
-      </li>
-      <li class="active">
-        <div class="orbit-image">
-          <img src="img/slider2.png" alt="slide 2" />
-        </div>
-      </li>
-      <li>
-        <div class="orbit-image">
-          <img src="img/slider3.png" alt="slide 3" />
-        </div>
-      </li>
-    </ul>
 
-    
-    <!-- Beginning of About Section-->
     <div class="basic-panel">
-      <div class="row">
-        <div class="small-12 columns">          
-          <div class="mission-statement">
-            The Berkeley Group is a student organization at UC Berkeley that provides pro bono consulting services for non-profits and social enterprises in the Bay Area.
-          </div>
-          <hr>
-        </div>
-      </div>
-      <a name="about_section" class="anchor-link"></a>  
-      <div class="row">   
-        <h2>about us</h2>
-        <div class="medium-11 medium-centered columns">
-          <div class="row panel-row">
-            <div class="medium-4 columns">
-              <div class="panel-img">
-                <img src="img/cog.png"/>
-              </div>
-              <div class="panel-text">
-                <h4>what we do</h4>
-                The Berkeley Group provides pro bono consulting services for nonprofit organizations and social enterprises throughout the San Francisco Bay Area.
-                <br><br>
-                As a leading on-campus organization, The Berkeley Group also provides UC Berkeley students with an opportunity to help create a better world while growing professionally and personally through hands-on experience on high-impact projects. 
-              </div>
-            </div>
-            <div class="medium-4 columns">
-              <div class="panel-img">
-                <img src="img/heart.png"/>
-              </div>
-              <div class="panel-text">
-                <h4>our mission</h4>
-                The Berkeley Group believes that helping social sector organizations with their business challenges is a unique way to create sustainable change in our community. <br><br>
-                We strive to provide the highest quality services to our clients in order to maximize their capacity for social impact. 
-              </div>
-            </div>
-            <div class="medium-4 columns">
-              <div class="panel-img">
-                <img src="img/newspaper.png"/>
-              </div>
-              <div class="panel-text">
-                <h4>history</h4>
-                The Berkeley Group was founded in 2003 by four UC Berkeley students who were inspired by Professor Alan Ross's class "The Social, Political, and Ethical Environment of Business," at the Haas School of Business. They hoped to provide an opportunity for students to grow professionally and personally, as well as contribute to the growing social sector. <br><br>
-                Since its founding, The Berkeley Group has assisted over 95 social sector organizations in the San Francisco Bay Area.
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--Testimony-->
-    <div class="testimony-panel">
-      <div class="row">
-        <div class="small-1 columns">
-          <div class="quote-left">
-            <img src="img/gray-left.png"/>
-          </div>
-        </div>
-        <div class="small-10 columns">
-          <div class="testimony-text">
-            The Berkeley Group provides outstanding service to the non profit sector through their work. Their methodology combines sound research and thorough analysis to deliver actionable strategies. Their recommendations have helped focus our organization on the right path.
-          </div>
-        </div>
-        <div class="small-1 columns right">
-          <div class="quote-right">
-            <img src="img/gray-right.png"/>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="testimony-by">
-          - Kathleen Cody, Executive Director<br>
-          American Bone Health
-        </div>
-      </div>
-    </div>
-
-    <!-- Beginning of Executive Section-->
-    <div class="exec-panel">
-      <div class="row">
+      <div class="app-landing row">
         <div class="large-12 columns">
-          <h2>
-            <div class="exec-title">
-              <a name="executives" class="anchor-link"></a> 
-              executive committee
-            </div>
-          </h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="medium-11 medium-centered columns">
-          <div class="row">
-            <div class="medium-4 columns">
-              <div class="exec-member">
-                <h5>Nitika Daga</h5>
-                <div class="exec-description">
-                  President<br>
-                  Cognitive Science and Computer Science
-                </div>  
-              </div>
-            </div>
-            <div class="medium-4 columns">
-              <div class="exec-member">
-                <h5>Jonathan Wang</h5>
-                <div class="exec-description">
-                  Vice President of Projects<br>
-                  Economics and Statistics
-                </div>  
-              </div>
-            </div>
-            <div class="medium-4 columns">
-              <div class="exec-member">
-                <h5>Ashwini Bhide</h5>
-                <div class="exec-description">
-                  Vice President of External Affairs<br>
-                  Economics and Cognitive Science
-                </div>  
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="medium-11 medium-centered columns">
-          <div class="row">
-            <div class="medium-4 columns">
-              <div class="exec-member">
-                <h5>Carl Moos</h5>
-                <div class="exec-description">
-                  Vice President of Internal Affairs<br>
-                  Economics and Statistics
-                </div>  
-              </div>
-            </div>
-            <div class="medium-8 columns">
-              <div class="exec-member">
-                <h5>Judy Kim</h5>
-                <div class="exec-description">
-                  Vice President of Development<br>
-                  Business Administration
-                </div>  
-              </div>
-            </div>
+          <a name="our_services" class="anchor-link"></a> 
+          <h2>thank you for your inquiry</h2>
+          <div class="application-text">
+            We will get back to you shortly!
           </div>
         </div>
       </div>
