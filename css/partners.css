@@ -37,6 +37,9 @@
 .donor_name {
   padding-bottom: 5px;
 }
+.donor_name a{
+  color: #28377C;
+}
 
 .sponsor-img-row2 {
   height: 92px;
