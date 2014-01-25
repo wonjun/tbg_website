@@ -124,3 +124,7 @@
   padding-bottom: 40px;
 }
 
+.panel-text a{
+  color: #28377C;
+  font-weight: bold;
+}
