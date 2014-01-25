@@ -73,16 +73,6 @@
       </div>
     </div>
 
-    <div class="mission-panel">
-      <div class="mission-statement">
-        <div class="row">
-          <div class="large-12 columns">
-            The Berkeley Group has had the opportunity to work with a diverse array of nonprofits in the San Francisco Bay Area, varying in size, mission, and reach. Since 2003, we have provided pro bono services to over 90 nonprofit and social sector organizations from a variety of industries.
-          </div>
-        </div>
-      </div>
-    </div>
-
     <!-- Beginning of the basics section-->
     <div class="basic-panel">
       <a name="who_we_are" class="anchor-link"></a>  
@@ -95,7 +85,7 @@
           <div class="row panel-row">
             <div class="medium-4 columns">
               <div class="panel-img">
-                <img src="img/cog.png"/>
+                <img src="img/head.png"/>
               </div>
               <div class="panel-text">
                 <h4>who we look for</h4>
@@ -104,7 +94,7 @@
             </div>
             <div class="medium-4 columns">
               <div class="panel-img">
-                <img src="img/heart.png"/>
+                <img src="img/tray.png"/>
               </div>
               <div class="panel-text">
                 <h4>projects</h4>
@@ -114,7 +104,7 @@
             </div>
             <div class="medium-4 columns">
               <div class="panel-img">
-                <img src="img/newspaper.png"/>
+                <img src="img/watch.png"/>
               </div>
               <div class="panel-text">
                 <h4>commitment</h4>
@@ -130,6 +120,7 @@
 
     <!--FAQ Section-->
     <div class="faq-panel">
+      <a name="why_tbg" class="anchor-link"></a>
       <div class="row">
         <div class="large-12 columns">
           <a name="faq" class="anchor-link"></a> 
@@ -188,6 +179,7 @@
 
     <!--Testimony-->
     <div class="testimony-panel">
+      <a name="recruitment_timeline" class="anchor-link"></a>
       <div class="row">
         <div class="large-1 columns">
           <div class="quote-left">
@@ -238,12 +230,12 @@
               </div>
             </div>
             <div class="medium-5 columns">
-              <img src="img/client-tl1.png"/>
+              <img src="img/consultants/consultants 1.png"/>
             </div>
           </div>
           <div class="row timeline-row time-element">
             <div class="medium-5 columns">
-              <img src="img/client-tl2.png"/>
+              <img src="img/consultants/consultants 2.png"/>
             </div>
             <div class="medium-5 columns">
               <div class="vcenterer"></div>
@@ -269,15 +261,61 @@
               </div>
             </div>
             <div class="medium-5 columns">
-              <img src="img/client-tl3.png" />
+              <img src="img/consultants/consultants 3.png" />
             </div>
           </div>
           <div class="row timeline-row time-element">
+            <div class="medium-5 columns">
+              <img src="img/consultants/consultants 4.png"/>
+            </div>
+            <div class="medium-5 columns">
+              <div class="vcenterer"></div>
+              <div class="time-title">
+                <h3>application due</h3>
+                <div class="time-text"> 
+                  A completed application consists of a general application, a 2”x2” photo, and a 1-page resume. <br>
+                  The consultant application is due on 2/5, and can be found here.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row timeline-row time-element">
+            <div class="medium-5 columns">
+              <div class="vcenterer"></div>
+              <div class="time-title">
+                <h3>group case interview*</h3>
+                <div class="time-text"> 
+                  Group case interviews are held on 2/7 and 2/8. <br>
+                  *This round is by invitation only. Locations and times are emailed to invited candidates.
+                </div>
+              </div>
+            </div>
+            <div class="medium-5 columns">
+              <img src="img/consultants/consultants 5.png" />
+            </div>
+          </div>
+          <div class="row timeline-row time-element">
+            <div class="medium-5 columns">
+              <img src="img/consultants/consultants 6.png"/>
+            </div>
+            <div class="medium-5 columns">
+              <div class="vcenterer"></div>
+              <div class="time-title">
+                <h3>personal interviews*</h3>
+                <div class="time-text"> 
+                  Personal interviews are held on 2/9. <br>
+                  *This round is by invitation only. Locations and times are emailed to invited candidates.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row timeline-row2 time-element">
             <div class="medium-4 medium-centered columns">
               <div class="time-title">
-                <h3>selection & engagement</h3>
+                <h3>meet and greet*</h3>
                 <div class="time-text"> 
-                  Final projects will be selected by 1/25. If your organization is selected, TBG will conduct initial scoping sessions and internal data requests. 
+                  Meet and Greet is held on 2/12. <br>
+                  *This round is by invitation only. Locations and times are emailed to invited candidates. 
                 </div>
               </div>
             </div>
@@ -346,18 +384,6 @@
     <script>
       $(document).foundation();
       $(document).ready(function(){
-        $(".project").hide();
-        $(".client-logo").hover(
-          function() {
-            $(this).find("img").stop().fadeTo('slow', 1);
-          },
-          function(){
-            $(this).find("img").stop().fadeTo('slow', .5);
-        });
-        $(".client-logo").hover(
-          function(){
-            $(this).find(".project").stop().slideToggle();
-        });
         $(".time-element").hide();
         $(".time-element").waypoint(function(event, direction) {
           $(this).stop().fadeToggle("slow");

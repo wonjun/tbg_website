@@ -8,6 +8,7 @@
   line-height: 125%;
   margin-right: 20px;
 }
+
 .service {
   padding-bottom: 25px;
   color: #58585B;
@@ -23,6 +24,10 @@
   margin: auto;
   padding-bottom: 20px;
 }
+  .clients-text a{
+    color: #28377C;
+    font-weight: bold;
+  }
 
 .client-logo {
   width: 100%;
