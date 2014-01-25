@@ -90,36 +90,38 @@
       <br><br>
 
       <!-- FORM STUFF -->
-      <form method="POST" action="mailer.php">
-        <div class="medium-3 columns contact-form-left">
-          <div class="contact-blue-text">
-            your name
-          </div>
-          <br>
-          <input type="text" name="name" size="50"> 
-          <br><br><br>
-          <div class="contact-blue-text">
-              your email address
-          </div>
-          <br>
-          <input type="text" name="email" size="50">
-          <br><br><br>
-           <div class="contact-blue-text">
-              your organization (if applicable)
+      <div class="row">
+        <form method="POST" action="mailer.php">
+          <div class="medium-3 columns contact-form-left">
+            <div class="contact-blue-text">
+              your name
             </div>
             <br>
-           <input type="text" name="org" size="50">
-          <br><br><br>
-          <input class="contact-blue-button" type="submit" value="Submit" name="submit">      
-        </div>
-        <div class="contact-form-right">
-          <div class="contact-blue-text">
-              your message
+            <input type="text" name="name" size="50"> 
+            <br>
+            <div class="contact-blue-text">
+                your email address
+            </div>
+            <br>
+            <input type="text" name="email" size="50">
+            <br>
+             <div class="contact-blue-text">
+                your organization (if applicable)
+              </div>
+              <br>
+             <input type="text" name="org" size="50">
+            <br>
+            <input class="contact-blue-button" type="submit" value="Submit" name="submit">      
           </div>
-          <br>
-           <textarea id="feedback" name="message"></textarea>
-        </div>
-      </form>
+          <div class="contact-form-right">
+            <div class="contact-blue-text">
+                your message
+            </div>
+            <br>
+             <textarea id="feedback" name="message"></textarea>
+          </div>
+        </form>
+      </div>
     </div>
     <!-- End of Send Us Message Section-->
 
