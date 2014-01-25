@@ -104,6 +104,51 @@ a.anchor-link {
   min-width: 50px;
 }
 
+.contact-description {
+  color: #58585b;
+  font-family: Georgia;
+  font-style: italic;
+  text-align: center;
+}
+
+.grey-basic-panel {
+  background-color: #f1f1f2;
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+
+.contact-blue-text {
+  color: #28377c;
+  font-family: Georgia;
+  font-style: italic;
+}
+
+.contact-blue-button {
+  background-color: #28377c;
+  color: #ffffff;
+  font-family: Georgia;
+  width: 100px;
+  height: 20px;
+  border: 5px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+.contact-form-left {
+  float: left;
+  width: 45%;
+}
+
+.contact-form-right {
+  margin-left: 650;
+  margin-bottom: 50px;
+}
+
+textarea#feedback {
+width:51%;
+height:300px;
+}
+
 .faq-panel {
   color: #28377C;
   padding-bottom: 25px;

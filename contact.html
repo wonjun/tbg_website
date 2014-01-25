@@ -1,0 +1,135 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Berkeley Group</title>
+    <link rel="stylesheet" href="css/fabrica-font.css" />
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/top-bar.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/modernizr.js"></script>
+  </head>
+
+  <body>
+    <!-- Top Bar-->
+    <div class="header">
+      <div class="fixed">
+        <nav class="top-bar" data-topbar>
+          <ul class="title-area">
+            <li class="name">
+              <a href="#"><img src="img/logo-blue.png"/></a>
+            </li>
+            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+          </ul>
+
+          <section class="top-bar-section">
+            <!-- Right Nav Section -->
+            <ul class="right">
+              <li class="nav-about has-dropdown"><a href="home.html">about</a></li>
+              <li class="nav-clients has-dropdown"><a href="clients.html">clients</a></li>
+              <li><a href="#">consultants</a></li>
+              <li><a href="#">donate</a></li>
+              <li><a href="#">contact us</a></li>
+            </ul>
+          </section>
+        </nav>
+        <div class="has-dropdown sub-bar">
+          <div class="nav-about sub-about">
+            <ul class="inline-list">
+              <li class="sub"><a href="home.html#about_section">about us</a></li>
+              <li class="sub sub-last"><a href="home.html#executives">executive committee</a></li>
+            </ul>
+          </div>
+          <div class="nav-clients sub-clients">
+            <ul class="inline-list">
+              <li class="sub"><a href="clients.html#our_services">our services</a></li>
+              <li class="sub"><a href="clients.html#faq">FAQ</a></li>
+              <li class="sub"><a href="clients.html#social_impact">social impact</a></li>
+              <li class="sub"><a href="clients.html#client_timeline">application process & timeline</a></li>
+              <li class="sub sub-last"><a href="clients.html#client_application">client application</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Beginning of Contact Us Section-->
+    <div class="basic-panel">
+      <div class="row">
+        <div class="large-12 columns">
+          <a name="our_services" class="anchor-link"></a> 
+          <h2> 
+            contact us
+          </h2>
+          <br>
+          <div class="contact-description">
+            Drop us an email at <a href="mailto:info@theberkeleygroup.org" class="contact-blue-text">info@theberkeleygroup.org</a>, or fill out the form below. 
+            <br>
+            We will get back to you within three working days.
+            <br><br>
+            To <a href="clients.html#client_application" class="contact-blue-text">apply for consulting services</a> or <a href="#" class="contact-blue-text">apply to join TBG</a>, please utilize the available applications. 
+            <br>
+            You can visit our <a href="http://www.facebook.com/TheBerkeleyGroup" class="contact-blue-text">Facebook page</a> for the most up-to-date information 
+            <br>
+            regarding upcoming events and deadlines.
+            <br><br><br>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of Contact Us Section-->
+
+    <!-- Beginning of Send Us Message Section-->
+    <div class="grey-basic-panel">
+      <br>
+      <h2> 
+        send us a message
+      </h2>
+      <br><br>
+
+      <!-- FORM STUFF -->
+      <div class="row">
+        <form method="POST" action="mailer.php">
+          <div class="medium-3 columns contact-form-left">
+            <div class="contact-blue-text">
+              your name
+            </div>
+            <br>
+            <input type="text" name="name" size="50"> 
+            <br>
+            <div class="contact-blue-text">
+                your email address
+            </div>
+            <br>
+            <input type="text" name="email" size="50">
+            <br>
+             <div class="contact-blue-text">
+                your organization (if applicable)
+              </div>
+              <br>
+             <input type="text" name="org" size="50">
+            <br>
+            <input class="contact-blue-button" type="submit" value="Submit" name="submit">      
+          </div>
+          <div class="contact-form-right">
+            <div class="contact-blue-text">
+                your message
+            </div>
+            <br>
+             <textarea id="feedback" name="message"></textarea>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- End of Send Us Message Section-->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
