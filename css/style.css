@@ -233,3 +233,63 @@ height:300px;
   vertical-align: middle;
 }
 
+.clients-text {
+  color: #58585B;
+  text-align: center;
+  font-family: arial;
+  font-size: 80%;
+  line-height: 125%;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+  .clients-text a{
+    color: #28377C;
+    font-weight: bold;
+  }
+
+.application-text {
+  color: #58585B;
+  text-align: center;
+  font-family: arial;
+  font-size: 80%;
+  line-height: 125%;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+  .application-text a{
+    color: #28377C;
+    font-weight: bold;
+  }
+  .application-text .button{
+    background-color: #28377C;
+    color: white;
+    font-weight: bold;
+    font-family: fabrica;
+  }
+
+.application-text2 {
+  color: #58585B;
+  text-align: center;
+  font-family: arial;
+  font-size: 80%;
+  line-height: 125%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+  .application-text2 a{
+    color: #28377C;
+    font-weight: bold;
+  }
+  .application-text2 .button{
+    background-color: #28377C;
+    color: white;
+    font-weight: bold;
+    font-family: fabrica;
+  }
+.app-landing {
+  padding-top: 30px
+}
+
+
