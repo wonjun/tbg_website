@@ -64,8 +64,8 @@ echo "Error: no data sent!";
         <div class="has-dropdown sub-bar">
           <div class="nav-about sub-about">
             <ul class="inline-list">
-              <li class="sub"><a href="#about_section" class="smooth_scroll">about us</a></li>
-              <li class="sub sub-last"><a href="#executives" class="smooth_scroll">executive committee</a></li>
+              <li class="sub"><a href="home.html#about_section" class="smooth_scroll">about us</a></li>
+              <li class="sub sub-last"><a href="home.html#executives" class="smooth_scroll">executive committee</a></li>
             </ul>
           </div>
           <div class="nav-clients sub-clients">
@@ -73,16 +73,8 @@ echo "Error: no data sent!";
               <li class="sub"><a href="clients.html#our_services" class="smooth_scroll">our services</a></li>
               <li class="sub"><a href="clients.html#faq" class="smooth_scroll">FAQ</a></li>
               <li class="sub"><a href="clients.html#social_impact" class="smooth_scroll">social impact</a></li>
-              <li class="sub"><a href="clients.html#client_timeline" class="smooth_scroll">application process & timeline</a></li>
+              <li class="sub"><a href="clients.html#client_timeline" class="smooth_scroll">application process</a></li>
               <li class="sub sub-last"><a href="clients.html#client_application" class="smooth_scroll">client application</a></li>
-            </ul>
-          </div>
-          <div class="nav-partners sub-partners">
-            <ul class="inline-list">
-              <li class="sub"><a href="partners.html#why_partner" class="smooth_scroll">why partner?</a></li>
-              <li class="sub"><a href="partners.html#sponsors" class="smooth_scroll">sponsors</a></li>
-              <li class="sub"><a href="partners.html#individual_donors" class="smooth_scroll">individual donors</a></li>
-              <li class="sub sub-last"><a href="partners.html#how_to_donate" class="smooth_scroll">how to donate</a></li>
             </ul>
           </div>
           <div class="nav-consultants sub-consultants">
@@ -91,6 +83,14 @@ echo "Error: no data sent!";
               <li class="sub"><a href="consultants.html#why_TBG" class="smooth_scroll">why TBG?</a></li>
               <li class="sub"><a href="consultants.html#recruitment_timeline" class="smooth_scroll">recruitment timeline</a></li>
               <li class="sub sub-last"><a href="consultants.html#consultant_application" class="smooth_scroll">consultant application</a></li>
+            </ul>
+          </div>
+          <div class="nav-partners sub-partners">
+            <ul class="inline-list">
+              <li class="sub"><a href="partners.html#why_partner" class="smooth_scroll">why partner?</a></li>
+              <li class="sub"><a href="partners.html#sponsors" class="smooth_scroll">sponsors</a></li>
+              <li class="sub"><a href="partners.html#individual_donors" class="smooth_scroll">individual donors</a></li>
+              <li class="sub sub-last"><a href="partners.html#how_to_donate" class="smooth_scroll">donate today</a></li>
             </ul>
           </div>
         </div>
