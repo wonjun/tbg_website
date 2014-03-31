@@ -14,7 +14,7 @@
 }
 
 .sponsor-img {
-  height: 100px;
+  height: 115px;
   padding-right: 30px;
   padding-top: 10px;
   -webkit-filter: grayscale(1);
@@ -42,7 +42,11 @@
 }
 
 .sponsor-img-row2 {
-  height: 92px;
+  height: 85px;
+}
+
+.partner-img {
+  height: 85px;
 }
 
 .sponsor-img:hover {
