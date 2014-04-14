@@ -41,8 +41,12 @@
   color: #28377C;
 }
 
+.sponsor-img-row1 {
+  height: 90px;
+}
+
 .sponsor-img-row2 {
-  height: 85px;
+  height: 110px;
 }
 
 .partner-img {
